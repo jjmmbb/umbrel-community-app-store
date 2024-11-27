@@ -1,11 +1,11 @@
 services:
   app_proxy:
     environment:
-      APP_HOST: denny-zoraxy_server_1
+      APP_HOST: zoraxy_server_1
       APP_PORT: 8000
       PROXY_AUTH_ADD: "false"
   server:
-    image: zoraxydocker/zoraxy:v3.1.2@sha256:38f23c5a507542bbd6eac0492bf6456be2004015594ca270a1a5998c8a377b74
+    image: zoraxydocker/zoraxy:v3.1.4@sha256:54d3704ff9861712bdb13870bdce655d7884c4391a781ea7c5133290fcee53b4
     restart: on-failure
     ports:
       - 42080:80
