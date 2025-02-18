@@ -5,7 +5,7 @@ services:
       APP_PORT: 8000
       PROXY_AUTH_ADD: "false"
   server:
-    image: zoraxydocker/zoraxy:v3.1.7@sha256:6c05bcf029753589a16f5e4e9855ee93f3744ce37e5369e3a2757fb1e2510c1e
+    image: zoraxydocker/zoraxy:v3.1.8@sha256:d3e104cefcc73345d64195017323c8fd328d0a77d271f4bcb9e50202111ae366
     restart: on-failure
     ports:
       - 42080:80
