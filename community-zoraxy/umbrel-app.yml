@@ -49,9 +49,10 @@ gallery:
   - https://i.imgur.com/wgjleUc.png
   - https://i.imgur.com/BYHeqCt.png
 releaseNotes: >-
-  The patch release for Zoraxy version 3.2.5r2 pre-release.
+  The patch release for Zoraxy version 3.2.7 release.
 dependencies:
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+
 
